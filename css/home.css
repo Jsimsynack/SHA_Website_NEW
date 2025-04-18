@@ -52,11 +52,20 @@ html {
     filter: invert(25%) !important;
   }
   
-  #quote {
+  /* #quote {
+    font-family: 'Brush Script MT', cursive !important; font-size: 30px !important;
+    font-family: ;
+    font-size: 30px !important;
     color: #6600c5 !important;
   }
+   */
   
-  
+#quoteImage {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+}
+
   /* ========================================
      Layout & Components
   ======================================== */
@@ -164,4 +173,22 @@ html {
     animation: text-pop-up-top 3s ease-out forwards;
     -webkit-animation: text-pop-up-top 3s ease-out forwards;
   }
+  
+
+  /* ========================================
+     Mobile Alterations
+  ======================================== */
+  @media (max-width: 768px) {
+    body::before {
+      background-attachment: scroll !important;
+      position: absolute !important;
+    }
+    #quoteImage {
+      margin-top: 5% !important;
+      margin-right: 5% !important;
+      margin-left: 5% !important;
+    }
+  }
+  
+  
   
