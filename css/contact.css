@@ -93,3 +93,13 @@ html {
     max-width: 20%;
   }
   
+
+    /* ========================================
+     Mobile Alterations
+  ======================================== */
+  @media (max-width: 768px) {
+    body::before {
+      background-attachment: scroll !important;
+      position: absolute !important;
+    }
+  }
