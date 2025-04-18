@@ -131,3 +131,14 @@ html {
     animation: puff-in-center 2.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
   }
   
+
+    /* ========================================
+     Mobile Alterations
+  ======================================== */
+  @media (max-width: 768px) {
+    body::before {
+      background-attachment: scroll !important;
+      position: absolute !important;
+    }
+  }
+  
